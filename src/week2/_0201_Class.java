@@ -1,6 +1,6 @@
 package week2;
 
-public class _01_class {
+public class _0201_Class {
     public static void main(String[] args) {
         Person person1 = new Person("유재석");
         person1.talk();
