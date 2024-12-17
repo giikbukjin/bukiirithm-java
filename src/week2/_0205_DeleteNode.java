@@ -2,17 +2,17 @@ package week2;
 
 public class _0205_DeleteNode {
     public static void main(String[] args) {
-        LinkedList4 linkedList4 = new LinkedList4(5); // 링크드 리스트 객체 생성 후 5 넣기
+        LinkedList4 linkedList = new LinkedList4(5); // 링크드 리스트 객체 생성 후 5 넣기
 
-        linkedList4.append(12); // 값이 5인 head 노드 뒤에 값이 12인 노드 추가
-        linkedList4.append(8); // 값이 12인 노드 뒤에 값이 8인 노드 추가
+        linkedList.append(12); // 값이 5인 head 노드 뒤에 값이 12인 노드 추가
+        linkedList.append(8); // 값이 12인 노드 뒤에 값이 8인 노드 추가
 
-        linkedList4.addNode(1, 6); // 1번째 index에 값이 6인 노드 추가
-        linkedList4.addNode(0, 7); // 0번째 index에 값이 7인 노드 추가 (예외 처리)
+        linkedList.addNode(1, 6); // 1번째 index에 값이 6인 노드 추가
+        linkedList.addNode(0, 7); // 0번째 index에 값이 7인 노드 추가 (예외 처리)
 
-        linkedList4.deleteNode(1);
-        linkedList4.deleteNode(0);
-        linkedList4.printAll(); // 6 12 8
+        linkedList.deleteNode(1);
+        linkedList.deleteNode(0);
+        linkedList.printAll(); // 6 12 8
     }
 }
 
